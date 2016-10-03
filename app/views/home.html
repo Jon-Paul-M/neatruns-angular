@@ -1,0 +1,72 @@
+
+    <div class="container" ng-if="loggedIn">
+        <div class="row row-content">
+            <div class="col-xs-12 col-sm-3">
+                <h2 align=center>Record Run</h2>
+            </div>
+        </div>
+        <div class="run-form">
+            <form ng-submit="submitRun()">
+                <div class="form-group">
+                    <label for="name">Run Name</label>
+                    <input type="text" class="form-control input-sm" id="name" ng-model="runRecord.name" required>
+                </div>
+                <div class="form-group">
+                    <label for="durationH">Duration</label>
+                    <input type="text" class="form-control input-sm xsm" id="durationH" placeholder="HH" ng-model="runRecord.durationH" required>
+                    <input type="text" class="form-control input-sm xsm" id="durationM" placeholder="MM" ng-model="runRecord.durationM" required>
+                    <input type="text" class="form-control input-sm xsm" id="durationS" placeholder="SS"  ng-model="runRecord.durationS" required>
+                </div>
+                <div class="form-group">
+                    <label for="distance">Distance</label>
+                    <input type="text" class="form-control input-sm" id="distance" ng-model="runRecord.distance" required>
+                </div>
+                <div class="form-group">
+                    <label for="distance">Calories</label>
+                    <input type="text" class="form-control input-sm" id="calories" ng-model="runRecord.calories">
+                </div>
+                <div class="form-group">
+                    <label for="distance">Heartrate</label>
+                    <input type="text" class="form-control input-sm" id="heartrate" ng-model="runRecord.heartrate">
+                </div>
+                <div class="form-group">
+                    <label for="distance">Effort</label>
+                    <select ng-model="runRecord.effort" required>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                        <option value="10">10</option>
+                    </select>
+                </div>
+
+                <button type="submit" class="btn btn-info btn-sm">Record</button>
+            </form>
+        </div>
+        <div class="row row-content">
+            <div class="col-xs-12 col-sm-3 col-sm-push-9">
+            </div>
+            <div class="col-xs-12 col-sm-9 col-sm-pull-3">
+            </div>
+        </div>
+    </div>
+
+    <div class="container" ng-if="!loggedIn">
+        <div class="row row-content">
+            <div class="col-xs-12 col-sm-3">
+                <h2 align=center>Welcome!</h2>
+                <p>Click the login button to begin!</p>
+            </div>
+        </div>
+        <div class="row row-content">
+            <div class="col-xs-12 col-sm-3 col-sm-push-9">
+            </div>
+            <div class="col-xs-12 col-sm-9 col-sm-pull-3">
+            </div>
+        </div>
+    </div>

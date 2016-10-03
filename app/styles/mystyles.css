@@ -1,0 +1,142 @@
+.row-header {
+  margin: 0px auto;
+  padding: 0px 0px;
+}
+.row-content {
+  margin: 0px auto;
+  padding: 0px 0px;
+}
+.row-footer {
+  margin: 0px auto;
+  padding: 20px 0px;
+  background-color: #AfAfAf;
+}
+.carousel {
+  background: #1a237e;
+}
+.carousel .item {
+  height: 300px;
+}
+.carousel .item img {
+  left: 0;
+  min-height: 300px;
+  position: absolute;
+  top: 0;
+}
+.navbar-inverse {
+  background: #f7812c;
+  color: #ffffff;
+}
+.navbar-inverse .navbar-nav > .active > a {
+  background: #d6712c;
+  color: #ffffff;
+}
+.navbar-inverse .navbar-nav > .active > a:hover {
+  background: #d6712c;
+  color: #ffffff;
+}
+.navbar-inverse .navbar-nav > .active > a:focus {
+  background: #d6712c;
+  color: #ffffff;
+}
+.navbar-inverse .navbar-nav > .open > a {
+  background: #d6712c;
+  color: #ffffff;
+}
+.navbar-inverse .navbar-nav > .open > a:hover {
+  background: #d6712c;
+  color: #ffffff;
+}
+.navbar-inverse .navbar-nav > .open > a:focus {
+  background: #1a237e;
+  color: #ffffff;
+}
+.navbar-inverse .navbar-nav .open .dropdown-menu > li > a {
+  background-color: #303f9f;
+  color: #eeeeee;
+}
+.navbar-inverse .navbar-nav > li > a {
+  color: #000000;
+}
+.navbar-inverse .navbar-nav .open .dropdown-menu > li > a:hover {
+  color: #000000;
+}
+.navbar-inverse .navbar-nav .open .dropdown-menu {
+  background-color: #303f9f;
+  color: #eeeeee;
+}
+address {
+  color: #0f0f0f;
+  font-size: 80%;
+  margin: 0px;
+}
+body {
+  align: center;
+  padding: 50px 0px 0px 0px;
+  z-index: 0;
+  background-color: dimgrey;
+}
+.tab-content {
+  border-bottom: 1px solid #dddddd;
+  border-left: 1px solid #dddddd;
+  border-right: 1px solid #dddddd;
+  padding: 10px;
+}
+.affix {
+  top: 100px;
+}
+#carouselButtons {
+  bottom: 0px;
+  position: absolute;
+  right: 0px;
+}
+.navbar-brand img {
+    margin-top: -10px;
+}
+h1 {
+    margin-top: 2px;
+    padding-right: 10px
+}
+h2 {
+    color: white;
+}
+.run-form {
+    text-align: center;
+    width:300px
+}
+.run-form label {
+    width: 80px;
+    color: white;
+}
+.run-form .input-sm {
+    width: initial;
+    display: inline;
+}
+.run-form input.xsm {
+    width: 47px;
+}
+.run-form select {
+    width: 150px;
+}
+.dataTables_filter {
+    display: none;
+}
+.dataTables_wrapper, .dataTables_paginate, .dataTables_info {
+    color: white;
+}
+a.paginate_button {
+    color: white;
+}
+.dataTables_length label {
+    color: white;
+}
+.dataTables_wrapper .dataTables_length, .dataTables_wrapper .dataTables_filter, .dataTables_wrapper .dataTables_info, .dataTables_wrapper .dataTables_processing, .dataTables_wrapper .dataTables_paginate {
+    color: white;
+}
+
+#DataTables_Table_0_length select {
+    color: black;
+}
+.row p {
+    color: white;
+}
