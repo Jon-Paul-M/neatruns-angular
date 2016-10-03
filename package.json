@@ -1,6 +1,7 @@
 {
   "name": "neatRuns",
   "private": true,
+  "version": "0.0.1",
   "devDependencies": {
     "browser-sync": "^2.10.0",
     "del": "^2.0.2",

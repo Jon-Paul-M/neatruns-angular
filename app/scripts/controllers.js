@@ -24,6 +24,9 @@ angular.module('neatRunsApp')
     $scope.submitRun = function () {
         console.log("submitRun");
         RunFactory.createRun($scope.runRecord);
+        $scope.runRecord = {};
+	alert('Sucess');
+        //$scope.form.$setPristine();
     };
     
     $rootScope.$on('login:Successful', function () {

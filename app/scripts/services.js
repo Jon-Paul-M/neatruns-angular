@@ -2,7 +2,7 @@
 
 angular.module('neatRunsApp')
 
-.constant("baseURL", "http://localhost:3000/")
+.constant("baseURL", "http://www.neatruns.com/api/")
 
 .factory('logsFactory', ['$resource', 'baseURL', function ($resource, baseURL) {
     return $resource(baseURL + "users/runs", null, {
